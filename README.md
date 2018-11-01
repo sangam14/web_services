@@ -58,7 +58,7 @@ Clone the Repository:
 git clone https://github.com/sangam14/web_services.git
 ```
 
-Change directory to dockerapp1 as shown below:
+Change directory to webservices as shown below:
 
 
 ```
