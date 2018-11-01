@@ -33,8 +33,8 @@ We are gifted with tools in this modern era and we should utilize them to delive
 ## Traditional approach (Know the existing things)
 
 ![webservice1](https://github.com/sangam14/web_services/blob/master/web-services2.png)
-
-In old approach, these pieces are installed on a VPS.
+<br>
+In old approach, these pieces are installed on a VPS.<br>
 1.Application Server (Node JS, Java or Python)<br>
 2.Proxy Server (Apache, Nginx)<br>
 3.Cache Server (Redis, Memcached)<br>
