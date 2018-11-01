@@ -26,7 +26,7 @@
 
 
 
-Aim:in this artical i'm going to show you the better way to deploy our production web services,in basically we are going to see technique of running multiple production container using docker.
+in this artical i'm going to show you the better way to deploy our production web services,in basically we are going to see technique of running multiple production container using docker.
 when you do dockering in day to day work than you can come across with docker compose really docker is magical tool !!
 We are gifted with tools in this modern era and we should utilize them to deliver services seamlessly.
 
