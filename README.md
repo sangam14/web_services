@@ -90,7 +90,7 @@ https://github.com/sangam14/web_services/blob/master/app/server.js
 
 ```
 
-we are added nginx configuration file.
+check the nginx configuration file.
 ```
 https://github.com/sangam14/web_services/blob/master/nginx/default.conf
 ```
