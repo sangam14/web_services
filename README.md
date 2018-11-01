@@ -75,6 +75,7 @@ for [PWD](https://labs.play-with-docker.com/) click on port you will get health 
 
 ![](https://github.com/sangam14/web_services/blob/master/web-service-4.png)
 
+
 health check by curl 
 
 ```
@@ -82,6 +83,13 @@ $ curl http://localhost/api/v1/healthcheck
 "2018-11-01T03:26:07.605Z/"
 ```
 ## Important thing
+
+If you see, we are creating a simple express service with a health check endpoint.
+```
+https://github.com/sangam14/web_services/blob/master/app/server.js
+
+```
+
 we are added nginx configuration file.
 ```
 https://github.com/sangam14/web_services/blob/master/nginx/default.conf
