@@ -92,9 +92,7 @@ Bringing up app using Docker Compose<br>
 
 
 
-
-
-
+## Anatomy of webservice 
 
 ![](https://github.com/sangam14/web_services/blob/master/web-service3.png)
 Steps to follow:
