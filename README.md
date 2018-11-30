@@ -10,7 +10,7 @@
     
   </tr>
   <tr>
-    <td class="tg-yw4l"><b> Play with Docker</b></td>
+    <td class="tg-yw4l"><b> Play with Docker(testing webservice)</b></td>
     <td class="tg-yw4l"><b>1</b></td>
     <td class="tg-yw4l"><b>10 min</b></td>
     
