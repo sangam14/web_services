@@ -21,7 +21,8 @@
 ## Pre-requisite
 
 - Create an account with [DockerHub](https://hub.docker.com)
-- Open [PWD](https://labs.play-with-docker.com/) Platform on your browser 
+- Open [PWD](https://labs.play-with-docker.com/) Platform on your browser (test purpose)
+- AWS + EC2 instance (using ubuntu)+ or any linux base instance 
 - Click on **Add New Instance** on the left side of the screen to bring up Alpine OS instance on the right side
 
 
