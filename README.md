@@ -27,28 +27,28 @@
 
 
 
-in this artical i'm going to show you the better way to deploy our production web services,in basically we are going to see technique of running multiple production container using docker.
-when you do dockering in day to day work than you can come across with docker compose really docker is magical tool !!
+In this article, I'm going to show you a better way to deploy your production web services. Basically we are going to use the method of running multiple production containers using docker.
+When you do docker in day to day work then you can come across docker-compose. Docker is really a magical tool!
 We are gifted with tools in this modern era and we should utilize them to deliver services seamlessly.
 
 ## Traditional approach (Know the existing things)
 
 ![webservice1](https://github.com/sangam14/web_services/blob/master/web-services2.png)
 <br>
-In old approach, these pieces are installed on a VPS.<br>
+In the old approach, these pieces are installed on a VPS.<br>
 1.Application Server (Node JS, Java or Python)<br>
 2.Proxy Server (Apache, Nginx)<br>
 3.Cache Server (Redis, Memcached)<br>
 4.Database Server(MySQL, PostgreSQL and MongoDB etc)<br>
 
-in the old approad not preffered bacause of cutomation is taking place everyone using CI/CD deployemnet.we can also capture a snapshot of given eniroment to reduce risk into wrong set of condition deploying services.
+The old approach is not preffered because of automation is taking place, everyone using CI/CD deployemnet. We can also capture a snapshot of given environment to reduce the risk of deploying services into wrong set of conditions.
 
-according to microservice, the tightly coupled logiic and deploy them separately. its means in above diagram the every application server in more independent and talk via HTTP or RPC. but its doesn't mean you need to choose X number of VPS instane to run services.
+According to microservices, the tightly coupled logic and deploy them separately. It means in above diagram, every application server is more independent and talk via HTTP or RPC. But it doesn't mean you need to choose X number of VPS instance to run services.
 
-but container provide nice way to simulate and and isolation feature within same machine or server.its era of containerization 
-If you wrote a service and planning to deploy it on AWS EC2 or any cloud VPS, don’t deploy your stuff as a single big chunk. Instead, run that distributed code in the containers. We are going to see how to containerize our deployment using Docker and Docker Compose.
+Containers provide a nice way to simulate and isolate features within same machine or server. It's era of containerization. 
+If you wrote a service and planning to deploy it on AWS EC2 or any cloud VPS, don’t deploy your stuff as a single big chunk. Instead, run that distributed code in containers. We are going to see how to containerize our deployment using Docker and Docker Compose.
 
-lets see in practical.
+Lets see some practical examples.
 
 ## Step 1- Install on Ubuntu AMI instance + Docker
    1.We need an AWS account (http://aws.amazon.com/).<br>
